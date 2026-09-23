@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <menuitem id="menu_classcraft_root" name="ClassCraft" sequence="10"/>
+    <menuitem id="menu_classcraft_root" name="ClassCraft" sequence="10" groups="group_classcraft_user"/>
+    <menuitem id="menu_classcraft_operations" name="Operations" parent="menu_classcraft_root" sequence="10"/>
+    <menuitem id="menu_classcraft_reporting" name="Reporting" parent="menu_classcraft_root" sequence="90"/>
+    <menuitem id="menu_classcraft_config" name="Configuration" parent="menu_classcraft_root" sequence="100"
+              groups="group_classcraft_manager"/>
 </odoo>
