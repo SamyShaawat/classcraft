@@ -1,0 +1,26 @@
+{
+    'name': 'ClassCraft',
+    'version': '19.0.1.0.0',
+    'category': 'Services',
+    'summary': 'Education center: enrollment to certificate',
+    'license': 'Other OSI approved licence',
+    'depends': [
+        'contacts',
+        'website',
+        'sale_management',
+        'hr',
+        'hr_attendance',
+        'calendar',
+        'crm',
+        'account',
+        'stock',
+        'mass_mailing',
+        'project',
+    ],
+    'data': [
+        'security/ir.model.access.csv',
+        'views/menus.xml',
+    ],
+    'installable': True,
+    'application': True,
+}
